@@ -1,10 +1,10 @@
 import { validate } from "class-validator";
 import { Request, Response } from "express";
-import { AppDataSource } from "../database/data-source";
-import { Paginator } from "../database/Paginator";
+import { AppDataSource } from "../../database/data-source";
+import { Paginator } from "../../database/Paginator";
 import { CreateAuthorDTO, UpdateAuthorDTO } from "../dtos/CreateAuthorDTO";
-import { Author } from "../entities/Author";
-import { ResponseUtl } from "../utils/Response";
+import { Author } from "../../database/entities/Author";
+import { ResponseUtl } from "../../utils/Response";
 
 export class AuthorsController {
   // GETALL

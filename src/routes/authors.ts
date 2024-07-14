@@ -1,6 +1,6 @@
 import expres from "express";
-import { AuthorsController } from "../controller/AuthorsController";
-import { FileUploader } from "../middlewares/FileUpoader";
+import { AuthorsController } from "../http/controller/AuthorsController";
+import { FileUploader } from "../http/middlewares/FileUpoader";
 import { ErrorHandler } from "../utils/Errorhandler";
 
 const authorsController = new AuthorsController();
